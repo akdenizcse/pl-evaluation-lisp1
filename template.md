@@ -1,6 +1,7 @@
 Lisp
 
 - History of the language: who/when invented it, which languages influenced it, etc.
+
  Developed by John McCarthy, creator of artificial intelligence applications, in 1958 to find effective solutions to many problems to be used in artificial intelligence applications. McCarthy published his design in an article titled "Recursive Functions of the Symbolic Expressions and Calculation with the Machine, Part I" at ACM's Communications in 1960. It has shown that it can create a Turing-complete language for algorithms, with an indicator for some simple operators and anonymous functions borrowed from the church.
 Steve Russell performed Lisp for the first time. This application was done on an IBM 704 computer using punch cards. Russell read the McCarthy's document and realized that the Lisp eval function could be implemented in the machine code, and consequently a lisp interpreter was formed.
  Two compilation language macros for IBM 704 have become primitive processes for parsing lists: the car (the content of the Address number of the Registration number) and cdr (the content of the Decrease of the Registration number).
