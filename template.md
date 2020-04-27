@@ -10,6 +10,8 @@ MIT graduate student Daniel Edwards developed his first garbage collection routi
  A number of new lisp dialects emerged. During the 1880s and 1990s, efforts were made to combine new lisp dialects in one language. Emerging as a remedy for this extravagant variety, Common Lisp was a version of Lisp in which its derivatives were combined and their disadvantages were eliminated. In 1994, ANSI Common Lisp standard published "ANSI X3.226-1994 Information Technology Programming Language Common Lisp.
 Lisp's development slowed somewhat in the 1990s, but it resumed after 2000. Most of the new events focused on Common Lisp, Scheme, Emacs Lisp, Clojure and Racket applications. The content of the new studies also included the development of portable libraries and applications.
 - Why was it invented
+
+ In fact, Lisp was created as an easy mathematical representation for computer programs affected by the lamda notation of the Alonzo Church. Then it started to be preferred for artificial intelligence research.
 - When/why shall we use it
 - How to setup an environment to use it in different platforms
 - Example codes
