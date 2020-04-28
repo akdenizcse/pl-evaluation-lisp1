@@ -50,10 +50,10 @@ We can use it in functional programming, or object oriented programming. It incl
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; finally (return fac))) <br/>
   
 ###### Sum List
-> (define (sum xs)
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (if (null? xs)
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (+ (car xs) (sum (cdr xs)))))
+> (define (sum xs) <br/>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (if (null? xs) <br/>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0 <br/>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (+ (car xs) (sum (cdr xs))))) <br/>
          
 ### Things that are specific to this language?
 - Prefix
