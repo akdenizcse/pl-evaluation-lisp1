@@ -56,6 +56,11 @@ We can use it in functional programming, or object oriented programming. It incl
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (+ (car xs) (sum (cdr xs))))) <br/>
          
 ### Things that are specific to this language?
-- Prefix
-Example: (a + b)*c
-> (*(+ a b) c)
+- **Conditionals** <br/>
+> if-then-else construct <br/>
+- **Function data type** <br/>
+Functions can be used as arguments.
+- **Lisp supports recursion** <br/>
+- **Binding a value to a variable means copying the pointer.** <br/>
+- **Lisp has garbage-collector**
+- **Programs are compositions of expressions.**
