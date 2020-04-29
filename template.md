@@ -60,7 +60,7 @@ We can use it in functional programming, or object oriented programming. It incl
 > if-then-else construct <br/>
 - **Function data type** <br/>
 Functions can be used as arguments.
-- **Lisp supports recursion** <br/>
+- **Lisp supports recursion (Lisp was the first programming language to support it.)** <br/>
 - **Binding a value to a variable means copying the pointer.** <br/>
 - **Lisp has garbage-collector**
 - **Programs are compositions of expressions.**
